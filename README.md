@@ -5,7 +5,7 @@ Requires Inkscape and drawio desktop to be installed, and assumes the command to
 
 The pipeline is basically:
 1. extract drawio diagram as raw XML
-2. parse XML and get pages names and indexes
+2. parse XML and get each page's name and index
 3. convert each page to a separate SVG file
 4. parse each page's XML and extract layer names and IDs
 5. inject layer names and IDs in generated SVG
